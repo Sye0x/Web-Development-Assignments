@@ -1,0 +1,119 @@
+.main-container {
+  background-color: #010048;
+  margin-bottom: 0px;
+  border-top: 1px solid crimson;
+}
+
+.message {
+  height: 100vh;
+  width: 25%;
+  margin: 6%;
+  text-align: left;
+  margin-top: 15vh;
+}
+
+.m1 {
+  font-size: 12vh;
+  font-weight: 700;
+  color: #010048;
+  -webkit-text-stroke: 0.3vw crimson;
+  text-transform: uppercase;
+  position: relative; /* Needed for positioning ::before */
+}
+
+.m1::before {
+  content: attr(data-text); /* Re-use one selector for all */
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 14vh;
+  color: crimson;
+  -webkit-text-stroke: 0vw crimson;
+
+  overflow: hidden;
+  white-space: nowrap; /* Ensure text doesn't wrap */
+  width: 0; /* Initial width for animation */
+  animation: animate 2s linear infinite;
+}
+
+@keyframes animate {
+  0%,
+  10%,
+  100% {
+    width: 0;
+  }
+  90%,
+  70% {
+    width: 118%; /* Animates to full width of the parent */
+  }
+}
+.m2 {
+  font-size: 12vh;
+  font-weight: 700;
+  color: #010048;
+  -webkit-text-stroke: 0.3vw crimson;
+  text-transform: uppercase;
+  position: relative; /* Needed for positioning ::before */
+}
+
+.m2::before {
+  content: attr(data-text); /* Re-use one selector for all */
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 14vh;
+  color: crimson;
+  -webkit-text-stroke: 0vw crimson;
+
+  overflow: hidden;
+  white-space: nowrap; /* Ensure text doesn't wrap */
+  width: 0; /* Initial width for animation */
+  animation: animate2 2s linear infinite;
+}
+
+@keyframes animate2 {
+  0%,
+  10%,
+  100% {
+    width: 0;
+  }
+  90%,
+  70% {
+    width: 32%; /* Animates to full width of the parent */
+  }
+}
+.m3 {
+  font-size: 12vh;
+  font-weight: 700;
+  color: #010048;
+  -webkit-text-stroke: 0.3vw crimson;
+  text-transform: uppercase;
+  position: relative; /* Needed for positioning ::before */
+}
+
+.m3::before {
+  content: attr(data-text); /* Re-use one selector for all */
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 14vh;
+  color: crimson;
+  -webkit-text-stroke: 0vw crimson;
+
+  overflow: hidden;
+  white-space: nowrap; /* Ensure text doesn't wrap */
+  width: 0; /* Initial width for animation */
+  animation: animate3 2s linear infinite;
+}
+
+@keyframes animate3 {
+  0%,
+  10%,
+  100% {
+    width: 0;
+  }
+  90%,
+  70% {
+    width: 170%; /* Animates to full width of the parent */
+  }
+}
