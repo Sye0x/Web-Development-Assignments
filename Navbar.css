@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.custom-navbar {
+  background-color: #010048;
+  color: white;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Space between the pages and header */
+
+  padding-inline: 50px;
+}
+
+.custom-Header-Name {
+  text-decoration: none;
+  color: white;
+  font-size: 44px;
+  font-weight: 500;
+  position: absolute;
+  left: 50%;
+  transform: translateX(
+    -50%
+  ); /* Center the header in the middle of the navbar */
+}
+
+.custom-Header-Name:hover {
+  color: crimson;
+}
+
+.Page-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 40px;
+}
+.Page-list li {
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.Page-list li:hover {
+  background-color: crimson;
+  border-color: crimson;
+  color: white;
+  height: 50px;
+  width: 100px;
+  border-radius: 40px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.pages {
+  flex-grow: 1; /* Makes sure the pages are on the left */
+  justify-content: flex-start;
+  display: flex;
+}
+.login {
+  color: white;
+  font-weight: 700;
+  font-size: 26px;
+  background-color: transparent;
+  border-top: 0px;
+  border-bottom: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+.login:hover {
+  background-color: crimson;
+  border-color: crimson;
+  color: white;
+  height: 60px;
+  width: 110px;
+  border-radius: 40px;
+}
