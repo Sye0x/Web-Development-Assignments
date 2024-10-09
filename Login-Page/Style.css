@@ -1,0 +1,118 @@
+/* Reset the margins and paddings for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Set up the body as a flex container */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #010048;
+}
+
+/* Styling for the main container */
+#main-container {
+  background-color: #313081bb;
+  width: 60vh;
+  padding: 3vh;
+  border: 0.4vh solid crimson;
+  border-radius: 3vh;
+  /* Combined shadows for border and floating effect */
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4),
+    /* Floating shadow */ 0 0 10px rgba(255, 94, 94, 0.4); /* Border glow */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s ease;
+}
+
+#main-container:hover {
+  transform: translateY(-1vh); /* Slight floating effect */
+}
+
+/* Login header */
+#login-text {
+  text-align: center;
+  color: crimson;
+  font-size: 4vh;
+  font-weight: bold;
+  margin-bottom: 5vh;
+}
+
+/* Label styling */
+label {
+  color: crimson;
+  font-size: 2.5vh;
+  font-weight: 700;
+  display: block;
+  margin-bottom: 1vh;
+  margin-left: 3vh;
+}
+
+/* Input fields */
+input {
+  width: calc(100% - 6vh);
+  font-size: 2.2vh;
+  padding: 1vh 2vh;
+  border: 0.2vh solid crimson;
+  border-radius: 1vh;
+  margin: 1vh 0 3vh 3vh;
+  outline: none;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  color: crimson;
+  font-weight: 600;
+  font-size: 3vh;
+}
+
+input:focus {
+  border-color: #ff5e5e;
+  color: crimson;
+  box-shadow: 0 0 5px rgba(255, 94, 94, 0.5);
+  font-weight: 600;
+}
+
+/* Button styling */
+button {
+  width: calc(100% - 6vh);
+  padding: 1.5vh;
+  font-size: 2.5vh;
+  font-weight: bold;
+  color: white;
+  background-color: crimson;
+  border: none;
+  border-radius: 3vh;
+  cursor: pointer;
+  margin-left: 3vh;
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s;
+  outline: none;
+}
+
+a {
+  display: block;
+  margin-left: 3vh;
+  margin-bottom: 4vh;
+  color: crimson;
+  font-size: 2.2vh;
+  text-decoration: none;
+  transition: color 0.3s;
+  font-weight: 500;
+}
+
+a:hover {
+  color: #ff5e5e;
+  text-decoration: underline;
+}
+
+button:hover {
+  background-color: #ff5e5e;
+  box-shadow: 0 4px 8px rgba(255, 94, 94, 0.3);
+}
+
+button:active {
+  transform: scale(0.98);
+}
