@@ -16,7 +16,9 @@
 }
 .Intro {
   font-size: 2vh;
-  margin-left: 4vh;
+  margin-left: 4.3vh;
+  color: white;
+  margin-top: 2vh;
 }
 .description {
   width: 50%;
@@ -61,9 +63,9 @@
 .sicon {
   color: white;
   font-size: 26px;
-  background-color: transparent;
-  border: none;
 
+  border: none;
+  width: 4vh;
   margin-top: 5vh;
   height: 3vh;
   margin-left: 2vh;
@@ -76,8 +78,11 @@
 .phone {
   margin: 0px;
   height: 0px;
+  color: white;
+  margin-left: 2vh;
 }
 .phoneicon {
   margin: 0px;
   height: 4vh;
+  color: white;
 }

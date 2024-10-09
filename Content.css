@@ -44,7 +44,7 @@
   }
   90%,
   70% {
-    width: 118%; /* Animates to full width of the parent */
+    width: 130%; /* Animates to full width of the parent */
   }
 }
 .m2 {
@@ -79,7 +79,7 @@
   }
   90%,
   70% {
-    width: 32%; /* Animates to full width of the parent */
+    width: 34%; /* Animates to full width of the parent */
   }
 }
 .m3 {
@@ -113,7 +113,7 @@
     width: 0;
   }
   90%,
-  70% {
-    width: 170%; /* Animates to full width of the parent */
+  78% {
+    width: 174%; /* Animates to full width of the parent */
   }
 }
