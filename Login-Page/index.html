@@ -7,20 +7,26 @@
     <title>Login</title>
   </head>
   <body>
-    <div id="nabbtn">
-      <button class="navs">Back</button>
-      <button class="navs">Register</button>
+    <!-- Navigation Buttons Container -->
+    <div id="navbtn">
+      <a href="../Landing-Page/index.html">
+        <button class="navs back-btn">Back</button>
+      </a>
+      <a>
+        <button class="navs register-btn">Register</button>
+      </a>
     </div>
 
+    <!-- Main Login Container -->
     <div id="main-container">
       <h1 id="login-text">Login</h1>
       <form>
-        <label> UserName: </label>
-        <input type="text" />
-        <label> Password: </label>
-        <input type="password" />
-        <a>Forget Password</a>
-        <button class="loginbutton">Login</button>
+        <label>Username:</label>
+        <input type="text" placeholder="Username" />
+        <label>Password:</label>
+        <input type="password" placeholder="Password" />
+        <a href="#">Forgot Password?</a>
+        <button class="loginbutton" type="submit">Login</button>
       </form>
     </div>
   </body>

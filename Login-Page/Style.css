@@ -1,12 +1,33 @@
-/* Reset the margins and paddings for all elements */
+/* Reset and Global Styles */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: Arial, sans-serif;
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #010048;
+  color: #fff;
+  position: relative;
+}
+
+/* Navigation Button Styles */
+#navbtn {
+  position: absolute;
+  top: 2vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2vh;
+}
+
 .navs {
-  width: 13vh;
   padding: 1.5vh;
   font-size: 2.5vh;
   font-weight: bold;
@@ -15,44 +36,37 @@
   border: none;
   border-radius: 3vh;
   cursor: pointer;
-  margin-left: 3vh;
   transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s;
   outline: none;
 }
-#navtbn {
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-}
-/* Set up the body as a flex container */
-body {
-  height: 100vh;
-  background-color: #010048;
+
+.back-btn {
+  align-self: flex-start;
 }
 
-/* Styling for the main container */
+.register-btn {
+  align-self: flex-end;
+}
+
+/* Main Container Styles */
 #main-container {
-  display: flex;
-
-  background-color: #313081bb;
-  width: 60vh;
-  padding: 3vh;
-  border: 0.4vh solid crimson;
-  border-radius: 3vh;
-  /* Combined shadows for border and floating effect */
-  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4),
-    /* Floating shadow */ 0 0 10px rgba(255, 94, 94, 0.4); /* Border glow */
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #313081bb;
+  width: 60vh;
+  max-width: 90vw;
+  padding: 3vh;
+  border: 0.4vh solid crimson;
+  border-radius: 3vh;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4), 0 0 10px rgba(255, 94, 94, 0.4);
   transition: transform 0.3s ease;
 }
 
 #main-container:hover {
-  transform: translateY(-1vh); /* Slight floating effect */
+  transform: translateY(-1vh);
 }
 
-/* Login header */
 #login-text {
   text-align: center;
   color: crimson;
@@ -61,39 +75,35 @@ body {
   margin-bottom: 5vh;
 }
 
-/* Label styling */
+/* Label Styles */
 label {
   color: crimson;
   font-size: 2.5vh;
   font-weight: 700;
-  display: block;
   margin-bottom: 1vh;
   margin-left: 3vh;
 }
 
-/* Input fields */
+/* Input Field Styles */
 input {
   width: calc(100% - 6vh);
-  font-size: 2.2vh;
   padding: 1vh 2vh;
   border: 0.2vh solid crimson;
   border-radius: 1vh;
   margin: 1vh 0 3vh 3vh;
   outline: none;
   transition: border-color 0.3s, box-shadow 0.3s;
-  color: crimson;
+  font-size: 2.5vh;
   font-weight: 600;
-  font-size: 3vh;
+  color: crimson;
 }
 
 input:focus {
   border-color: #ff5e5e;
-  color: crimson;
   box-shadow: 0 0 5px rgba(255, 94, 94, 0.5);
-  font-weight: 600;
 }
 
-/* Button styling */
+/* Login Button */
 .loginbutton {
   width: calc(100% - 6vh);
   padding: 1.5vh;
@@ -116,7 +126,6 @@ a {
   color: crimson;
   font-size: 2.2vh;
   text-decoration: none;
-  transition: color 0.3s;
   font-weight: 500;
 }
 
