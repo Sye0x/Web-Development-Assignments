@@ -25,6 +25,18 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 0 2vh;
+  animation: fade-down 1s;
+}
+@keyframes fade-down {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px) scale(0.9);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+  }
 }
 
 .navs {
@@ -61,6 +73,7 @@ body {
   border-radius: 3vh;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4), 0 0 10px rgba(255, 94, 94, 0.4);
   transition: transform 0.3s ease;
+  animation: fade-up 0.5s;
 }
 
 #main-container:hover {
@@ -138,7 +151,21 @@ button:hover {
   background-color: #ff5e5e;
   box-shadow: 0 4px 8px rgba(255, 94, 94, 0.3);
 }
-
+input::placeholder {
+  color: crimson;
+}
 button:active {
   transform: scale(0.98);
+}
+
+@keyframes fade-up {
+  0% {
+    opacity: 0;
+    transform: translateY(30px) scale(0.9);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+  }
 }
