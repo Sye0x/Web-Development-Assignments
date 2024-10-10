@@ -1,0 +1,144 @@
+/* Reset and Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #010048;
+  color: #fff;
+  position: relative;
+}
+
+/* Navigation Button Styles */
+#navbtn {
+  position: absolute;
+  top: 2vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2vh;
+}
+
+.navs {
+  padding: 1.5vh;
+  font-size: 2.5vh;
+  font-weight: bold;
+  color: white;
+  background-color: crimson;
+  border: none;
+  border-radius: 3vh;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s;
+  outline: none;
+}
+
+.back-btn {
+  align-self: flex-start;
+}
+
+.register-btn {
+  align-self: flex-end;
+}
+
+/* Main Container Styles */
+#main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #313081bb;
+  width: 60vh;
+  max-width: 90vw;
+  padding: 3vh;
+  border: 0.4vh solid crimson;
+  border-radius: 3vh;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4), 0 0 10px rgba(255, 94, 94, 0.4);
+  transition: transform 0.3s ease;
+}
+
+#main-container:hover {
+  transform: translateY(-1vh);
+}
+
+#login-text {
+  text-align: center;
+  color: crimson;
+  font-size: 4vh;
+  font-weight: bold;
+  margin-bottom: 5vh;
+}
+
+/* Label Styles */
+label {
+  color: crimson;
+  font-size: 2.5vh;
+  font-weight: 700;
+  margin-bottom: 1vh;
+  margin-left: 3vh;
+}
+
+/* Input Field Styles */
+input {
+  width: calc(100% - 6vh);
+  padding: 1vh 2vh;
+  border: 0.2vh solid crimson;
+  border-radius: 1vh;
+  margin: 1vh 0 3vh 3vh;
+  outline: none;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  font-size: 2.5vh;
+  font-weight: 600;
+  color: crimson;
+}
+
+input:focus {
+  border-color: #ff5e5e;
+  box-shadow: 0 0 5px rgba(255, 94, 94, 0.5);
+}
+
+/* Login Button */
+.loginbutton {
+  width: calc(100% - 6vh);
+  padding: 1.5vh;
+  font-size: 2.5vh;
+  font-weight: bold;
+  color: white;
+  background-color: crimson;
+  border: none;
+  border-radius: 3vh;
+  cursor: pointer;
+  margin-left: 3vh;
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s;
+  outline: none;
+}
+
+a {
+  display: block;
+  margin-left: 3vh;
+  margin-bottom: 4vh;
+  color: crimson;
+  font-size: 2.2vh;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  color: #ff5e5e;
+  text-decoration: underline;
+}
+
+button:hover {
+  background-color: #ff5e5e;
+  box-shadow: 0 4px 8px rgba(255, 94, 94, 0.3);
+}
+
+button:active {
+  transform: scale(0.98);
+}
