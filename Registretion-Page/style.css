@@ -169,3 +169,35 @@ button:active {
     transform: translateY(0px) scale(1);
   }
 }
+#terms {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1vh 3vh;
+  flex-wrap: wrap; /* Allows wrapping for smaller screens */
+}
+
+#termscheck {
+  width: 2.5vh;
+  height: 2.5vh; /* Adjust height to maintain square shape */
+  margin-right: 1vh;
+}
+
+#termstext {
+  font-size: 2.2vh;
+  font-weight: 400;
+  line-height: 1.2;
+  max-width: 70vw; /* Limits width for smaller screens */
+}
+
+/* Media Query for Smaller Screens */
+@media (max-width: 600px) {
+  #termstext {
+    font-size: 2vh; /* Adjust font size for smaller screens */
+  }
+
+  #termscheck {
+    width: 2vh;
+    height: 2vh; /* Smaller size for smaller screens */
+  }
+}
