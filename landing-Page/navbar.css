@@ -1,0 +1,50 @@
+#main-icon-container {
+  min-height: 14vh; /* Allows height to expand if needed */
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1vh 0; /* Adds some top/bottom padding for larger screens */
+}
+
+#main-icon {
+  text-align: center;
+  font-size: 6vh;
+  color: #28282b;
+  font-weight: 600;
+  background-color: whitesmoke;
+}
+
+.highlight {
+  color: #fa9414;
+}
+
+.Page-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Center the items horizontally */
+  gap: 40px; /* Space between buttons */
+  background-color: #28282b;
+  align-items: center;
+  text-align: center;
+}
+
+.Page-list li {
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.login {
+  color: white;
+  font-weight: 700;
+  font-size: 28px;
+  background-color: transparent;
+  border: none; /* Removed individual border settings for clarity */
+  cursor: pointer; /* Make it clear that the buttons are clickable */
+}
+
+.login:hover {
+  background-color: #fa9414;
+}

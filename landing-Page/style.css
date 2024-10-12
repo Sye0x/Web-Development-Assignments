@@ -1,0 +1,9 @@
+* {
+  margin: 0;
+  font-family: myfont;
+}
+
+@font-face {
+  font-family: myfont;
+  src: url("../Fonts/Bound.ttf");
+}
