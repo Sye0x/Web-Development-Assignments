@@ -1,0 +1,88 @@
+.content2 {
+  display: flex;
+
+  margin-bottom: 5vh;
+  height: 96vh;
+  width: 100%;
+}
+.left {
+  justify-content: center;
+
+  height: 95vh;
+  width: 100%;
+}
+
+.top {
+  display: flex;
+  justify-content: left;
+  align-items: self-start;
+
+  height: 50%;
+  width: 100%;
+
+  background-color: #fa9414;
+}
+#delivery {
+  padding-left: 2vh;
+  padding-right: 2vh;
+  color: #28282b;
+}
+#deliveryinfo {
+  background-color: #fa9414;
+  color: #28282b;
+  text-align: justify;
+  font-size: 3vh;
+  display: inline;
+}
+#delcont1 {
+  margin-top: 8vh;
+  background-color: #fa9414;
+  color: #28282b;
+  text-align: justify;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+.logistics {
+  background-color: #fa9414;
+  text-align: center;
+}
+#logistics-button {
+  border: 0.3vh solid #28282b;
+  background-color: #fa9414;
+  height: 8vh;
+  width: 18vh;
+  font-size: 2.5vh;
+  margin-left: 8vh;
+}
+#deliveryimage {
+  background-color: #fa9414;
+  height: 30vh;
+  margin-left: 10vh;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-evenly;
+  height: 50%;
+  width: 100%;
+  background-color: #28282b;
+}
+.details {
+  display: block;
+  justify-content: center;
+
+  background-color: #28282b;
+  margin-top: 10vh;
+}
+#details-icons {
+  background-color: #28282b;
+  height: 15vh;
+  margin-bottom: 2vh;
+}
+
+.details-txt {
+  color: #fa9414;
+  background-color: #28282b;
+  font-size: 2vh;
+}

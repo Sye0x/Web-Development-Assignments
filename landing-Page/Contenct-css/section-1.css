@@ -1,8 +1,8 @@
 .content1 {
-  height: 100%;
   display: flex;
   justify-content: center;
-  margin-bottom: 5vh;
+  margin-top: 10vh;
+  margin-bottom: 15vh;
 }
 
 #container1 {
