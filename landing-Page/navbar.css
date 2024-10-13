@@ -18,17 +18,21 @@
 .highlight {
   color: #fa9414;
 }
-
+.item1 {
+  background-color: hsl(240, 4%, 16%);
+}
 .Page-list {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding-left: 7vh;
+  padding-right: 7vh;
   display: flex;
-  justify-content: center; /* Center the items horizontally */
+  justify-content: space-between;
   gap: 40px; /* Space between buttons */
   background-color: #28282b;
-  align-items: center;
-  text-align: center;
+  border: 0.6vh solid #fa9414;
+  border-top: 0px;
+  border-right: 0cap;
 }
 
 .Page-list li {
@@ -39,12 +43,17 @@
 .login {
   color: white;
   font-weight: 700;
-  font-size: 28px;
+  font-size: 3vh;
   background-color: transparent;
   border: none; /* Removed individual border settings for clarity */
   cursor: pointer; /* Make it clear that the buttons are clickable */
+  margin-left: 20px;
 }
 
 .login:hover {
   background-color: #fa9414;
+}
+.login-button {
+  background-color: #28282b;
+  display: flex;
 }

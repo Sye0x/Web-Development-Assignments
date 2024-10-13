@@ -1,0 +1,68 @@
+.content1 {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+
+#container1 {
+  background-color: whitesmoke;
+  border: 1vh solid #fa9414;
+  border-left: 1vh solid #28282b;
+  border-bottom: 1vh solid #28282b;
+  height: 45vh;
+  width: 70vh;
+  border-radius: 7vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 5vh;
+}
+#container2 {
+  background-color: #28282b;
+  border: 0.5vh solid #fa9414;
+  height: 40vh;
+  width: 40vh;
+  border-radius: 7vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 5vh;
+  padding: 3vh;
+  margin-right: 0.5vh;
+}
+#container3 {
+  background-color: #fa9414;
+  border: 0.5vh solid #28282b;
+  height: 40vh;
+  width: 40vh;
+  border-radius: 7vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 5vh;
+  margin-left: 0vh;
+  padding: 3vh;
+}
+#Wellcome {
+  display: inline;
+  background-color: whitesmoke;
+  color: #28282b;
+  font-size: 10vh;
+}
+#intro {
+  display: inline;
+  color: #fa9414;
+  background-color: #28282b;
+  font-size: 2.5vh;
+  text-align: justify;
+}
+#intro2 {
+  color: #28282b;
+  background-color: #fa9414;
+  font-size: 2.5vh;
+  text-align: justify;
+}
