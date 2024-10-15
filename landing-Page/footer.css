@@ -1,0 +1,84 @@
+#foter {
+  height: 35vh;
+  background-color: #28282b;
+  display: flex;
+  justify-content: left;
+  padding-left: 10vh;
+  padding-top: 5vh;
+}
+.info {
+  background-color: #28282b;
+  width: 60%;
+}
+.info-heading {
+  background-color: #28282b;
+  color: whitesmoke;
+}
+.info-description {
+  background-color: #28282b;
+  color: whitesmoke;
+  width: 100%;
+  text-align: justify;
+  font-size: 2vh;
+}
+#pages-link-container {
+  background-color: #28282b;
+}
+#pages-link-container ul {
+  background-color: #28282b;
+  list-style-type: none;
+  display: flex;
+}
+#pages-link-container li {
+  background-color: #28282b;
+  color: whitesmoke;
+  font-size: 2vh;
+  margin-left: 5vh;
+}
+#pages-link-container li:hover {
+  background-color: #28282b;
+  color: #fa9414;
+}
+.sicon {
+  font-size: 26px;
+  background-color: #28282b;
+  color: #fa9414;
+  border: none;
+  width: 4vh;
+  margin-top: 5vh;
+  height: 3vh;
+  margin-left: 2vh;
+}
+
+.sicon:first-child {
+  border-left: none;
+}
+.smedia {
+  justify-content: space-around;
+  display: flex;
+  text-align: center;
+  margin-bottom: 2vh;
+  background-color: #28282b;
+  margin-left: 7vh;
+}
+
+.smedia2 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  text-align: center;
+  margin-bottom: 2vh;
+  background-color: #28282b;
+  margin-left: 7vh;
+  margin-top: 3vh;
+}
+.phone {
+  background-color: #28282b;
+  color: #fa9414;
+  padding-left: 0.5vh;
+}
+.phoneicon {
+  background-color: #28282b;
+  color: #fa9414;
+  font-size: 2.4vh;
+}
