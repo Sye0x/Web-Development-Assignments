@@ -1,5 +1,5 @@
 #main-icon-container {
-  min-height: 14vh; /* Allows height to expand if needed */
+  min-height: 18vh; /* Allows height to expand if needed */
   background-color: whitesmoke;
   display: flex;
   justify-content: center;
@@ -37,7 +37,7 @@
 
 .Page-list li {
   font-weight: 700;
-  font-size: 26px;
+  font-size: 5vh;
 }
 
 .login {

@@ -1,10 +1,21 @@
 * {
   margin: 0;
   font-family: myfont;
-  background-color: whitesmoke;
 }
-
+body {
+  flex: 1;
+  background-image: linear-gradient(
+    to right,
+    #2b2b2b 0%,
+    #2b2b2b 47%,
+    #fa9414 51%,
+    #fa9414 100%
+  );
+}
 @font-face {
   font-family: myfont;
   src: url("../Fonts/Bound.ttf");
+}
+a {
+  background-color: transparent;
 }
