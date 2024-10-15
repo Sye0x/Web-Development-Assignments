@@ -137,3 +137,12 @@ body {
 .back-button:hover {
   background-color: #444;
 }
+input[type="date"] {
+  color: #fff;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(
+    1
+  ); /* Inverts the color of the calendar icon to suit dark backgrounds */
+}

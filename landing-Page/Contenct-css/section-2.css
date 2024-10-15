@@ -20,27 +20,27 @@
   height: 50%;
   width: 100%;
 
-  background-color: #fa9414;
+  background-color: transparent;
 }
 #delivery {
   padding-left: 2vh;
   padding-right: 2vh;
-  color: #28282b;
+  color: #ffffff;
 }
 #deliveryinfo {
-  background-color: #fa9414;
-  color: #28282b;
+  color: #fff;
   text-align: justify;
   font-size: 3vh;
   display: inline;
+  margin-bottom: 10vh;
 }
 #delcont1 {
   margin-top: 8vh;
-  background-color: #fa9414;
+
   color: #28282b;
   text-align: justify;
   width: 70%;
-  display: flex;
+  height: 60vh;
   justify-content: space-between;
 }
 .logistics {
@@ -48,12 +48,13 @@
   text-align: center;
 }
 #logistics-button {
-  border: 0.3vh solid #28282b;
-  background-color: #fa9414;
+  border: 0.3vh solid white;
+  color: #ffffff;
+  background-color: transparent;
   height: 8vh;
   width: 18vh;
   font-size: 2.5vh;
-  margin-left: 8vh;
+  margin-top: 5vh;
 }
 #deliveryimage {
   background-color: #fa9414;
