@@ -1,15 +1,13 @@
 .content1 {
   display: flex;
   justify-content: center;
-  margin-top: 10vh;
-  margin-bottom: 15vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
 }
 
 #container1 {
-  background-color: whitesmoke;
-  border: 1vh solid #fa9414;
-  border-left: 1vh solid #28282b;
-  border-bottom: 1vh solid #28282b;
+  background-color: transparent;
+
   height: 45vh;
   width: 70vh;
   border-radius: 7vh;
@@ -20,8 +18,9 @@
   margin: 5vh;
 }
 #container2 {
-  background-color: #28282b;
-  border: 0.5vh solid #fa9414;
+  background-color: #fa9414;
+
+  border-right: 0px;
   height: 40vh;
   width: 40vh;
   border-radius: 7vh;
@@ -31,11 +30,12 @@
   text-align: center;
   margin: 5vh;
   padding: 3vh;
-  margin-right: 0.5vh;
+  margin-right: 0vh;
 }
 #container3 {
-  background-color: #fa9414;
-  border: 0.5vh solid #28282b;
+  background-color: #28282b;
+
+  border-left: 0px;
   height: 40vh;
   width: 40vh;
   border-radius: 7vh;
@@ -49,20 +49,20 @@
 }
 #Wellcome {
   display: inline;
-  background-color: whitesmoke;
-  color: #28282b;
+  background-color: transparent;
+  color: white;
   font-size: 10vh;
 }
 #intro {
   display: inline;
-  color: #fa9414;
-  background-color: #28282b;
+  color: #28282b;
+  background-color: #fa9414;
   font-size: 2.5vh;
   text-align: justify;
 }
 #intro2 {
-  color: #28282b;
-  background-color: #fa9414;
+  color: #fa9414;
+  background-color: #28282b;
   font-size: 2.5vh;
   text-align: justify;
 }

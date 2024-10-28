@@ -7,8 +7,8 @@ body {
   background-image: linear-gradient(
     to right,
     #2b2b2b 0%,
-    #2b2b2b 47%,
-    #fa9414 51%,
+    #2b2b2b 40%,
+    #fa9414 56%,
     #fa9414 100%
   );
 }
@@ -18,4 +18,5 @@ body {
 }
 a {
   background-color: transparent;
+  text-decoration: none;
 }
