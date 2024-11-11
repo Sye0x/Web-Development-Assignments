@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: myfont;
 }
 body {
   flex: 1;
@@ -16,7 +16,10 @@ body {
   font-family: myfont;
   src: url("../Fonts/Bound.ttf");
 }
-a {
-  background-color: transparent;
+a,
+a:hover,
+a:focus,
+a:active {
   text-decoration: none;
+  color: inherit;
 }
