@@ -1,0 +1,59 @@
+#main-icon-container {
+  min-height: 18vh; /* Allows height to expand if needed */
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1vh 0; /* Adds some top/bottom padding for larger screens */
+}
+
+#main-icon {
+  text-align: center;
+  font-size: 6vh;
+  color: #28282b;
+  font-weight: 600;
+  background-color: whitesmoke;
+}
+
+.highlight {
+  color: #fa9414;
+}
+.item1 {
+  background-color: hsl(240, 4%, 16%);
+}
+.Page-list {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 7vh;
+  padding-right: 7vh;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px; /* Space between buttons */
+  background-color: #28282b;
+  border: 0.6vh solid #fa9414;
+  border-top: 0px;
+  border-right: 0cap;
+}
+
+.Page-list li {
+  font-weight: 700;
+  font-size: 5vh;
+}
+
+.login {
+  color: white;
+  font-weight: 700;
+  font-size: 3vh;
+  background-color: transparent;
+  border: none; /* Removed individual border settings for clarity */
+  cursor: pointer; /* Make it clear that the buttons are clickable */
+  margin-left: 20px;
+}
+
+.login:hover {
+  background-color: #fa9414;
+}
+.login-button {
+  background-color: #28282b;
+  display: flex;
+}

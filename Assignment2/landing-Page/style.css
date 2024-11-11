@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+body {
+  flex: 1;
+  background-image: linear-gradient(
+    to right,
+    #2b2b2b 0%,
+    #2b2b2b 40%,
+    #fa9414 56%,
+    #fa9414 100%
+  );
+}
+@font-face {
+  font-family: myfont;
+  src: url("../Fonts/Bound.ttf");
+}
+a {
+  background-color: transparent;
+  text-decoration: none;
+}

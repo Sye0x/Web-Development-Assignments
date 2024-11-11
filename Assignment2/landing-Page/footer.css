@@ -1,0 +1,85 @@
+#foter {
+  height: 35vh;
+  background-color: transparent;
+  display: flex;
+  justify-content: left;
+  padding-left: 10vh;
+  padding-top: 5vh;
+  border-top: 0.2vh solid white;
+}
+.info {
+  background-color: transparent;
+  width: 60%;
+}
+.info-heading {
+  background-color: transparent;
+  color: whitesmoke;
+}
+.info-description {
+  background-color: transparent;
+  color: whitesmoke;
+  width: 100%;
+  text-align: justify;
+  font-size: 2vh;
+}
+#pages-link-container {
+  background-color: transparent;
+}
+#pages-link-container ul {
+  background-color: transparent;
+  list-style-type: none;
+  display: flex;
+}
+#pages-link-container li {
+  background-color: transparent;
+  color: whitesmoke;
+  font-size: 2vh;
+  margin-left: 5vh;
+}
+#pages-link-container li:hover {
+  background-color: transparent;
+  color: #2b2b2b;
+}
+.sicon {
+  font-size: 4vh;
+  background-color: transparent;
+  color: #2b2b2b;
+  border: none;
+  width: 4vh;
+  margin-top: 5vh;
+  height: 3vh;
+  margin-left: 2vh;
+}
+
+.sicon:first-child {
+  border-left: none;
+}
+.smedia {
+  justify-content: space-around;
+  display: flex;
+  text-align: center;
+  margin-bottom: 2vh;
+  background-color: transparent;
+  margin-left: 7vh;
+}
+
+.smedia2 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  text-align: center;
+  margin-bottom: 2vh;
+  background-color: transparent;
+  margin-left: 7vh;
+  margin-top: 3vh;
+}
+.phone {
+  background-color: transparent;
+  color: #2b2b2b;
+  padding-left: 0.5vh;
+}
+.phoneicon {
+  background-color: transparent;
+  color: #2b2b2b;
+  font-size: 2.4vh;
+}

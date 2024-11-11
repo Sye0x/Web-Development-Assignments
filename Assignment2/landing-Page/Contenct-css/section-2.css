@@ -1,0 +1,62 @@
+.content2 {
+  display: flex;
+
+  margin-bottom: 5vh;
+  height: 96vh;
+  width: 100%;
+}
+.left {
+  justify-content: center;
+
+  height: 95vh;
+  width: 100%;
+}
+
+.top {
+  display: flex;
+  justify-content: left;
+  align-items: self-start;
+
+  height: 50%;
+  width: 100%;
+
+  background-color: transparent;
+}
+#delivery {
+  padding-right: 2vh;
+  color: #ffffff;
+}
+#deliveryinfo {
+  color: #fff;
+  text-align: justify;
+  font-size: 3vh;
+  display: inline;
+  margin-bottom: 10vh;
+}
+#delcont1 {
+  margin-top: 8vh;
+  margin-left: 30vh;
+  color: #28282b;
+  text-align: justify;
+  width: 70%;
+  height: 60vh;
+  justify-content: space-between;
+}
+.logistics {
+  background-color: #fa9414;
+  text-align: center;
+}
+#logistics-button {
+  border: 0.3vh solid white;
+  color: #ffffff;
+  background-color: transparent;
+  height: 8vh;
+  width: 18vh;
+  font-size: 2.5vh;
+  margin-top: 5vh;
+}
+#deliveryimage {
+  background-color: #fa9414;
+  height: 30vh;
+  margin-left: 10vh;
+}
