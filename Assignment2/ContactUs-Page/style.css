@@ -1,0 +1,91 @@
+/* General reset and font */
+* {
+  margin: 0;
+  font-family: myfont;
+}
+
+body,
+html {
+  overflow-x: hidden;
+}
+
+/* Container - Ensure full-width responsiveness */
+.container {
+  max-width: 100vw;
+}
+
+body {
+  flex: 1;
+  background-image: linear-gradient(
+    to right,
+    #2b2b2b 0%,
+    #2b2b2b 40%,
+    #fa9414 56%,
+    #fa9414 100%
+  );
+  background-size: cover; /* Ensures the gradient covers the screen */
+}
+
+/* Font face */
+@font-face {
+  font-family: myfont;
+  src: url("../Fonts/Bound.ttf");
+}
+
+/* Link styling */
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 1024px) {
+  body {
+    background-image: linear-gradient(
+      to right,
+      #2b2b2b 0%,
+      #2b2b2b 45%,
+      #fa9414 55%,
+      #fa9414 100%
+    );
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    background-image: linear-gradient(
+      to bottom,
+      #2b2b2b 0%,
+      #2b2b2b 50%,
+      #fa9414 50%,
+      #fa9414 100%
+    );
+  }
+
+  .container {
+    padding: 10px; /* Adds some padding for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    background-image: linear-gradient(
+      to bottom,
+      #2b2b2b 0%,
+      #2b2b2b 40%,
+      #fa9414 60%,
+      #fa9414 100%
+    );
+  }
+
+  * {
+    font-size: 90%; /* Adjusts font size for readability on small screens */
+  }
+
+  .container {
+    padding: 5px;
+  }
+}

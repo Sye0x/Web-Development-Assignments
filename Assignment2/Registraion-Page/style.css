@@ -146,3 +146,17 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     1
   ); /* Inverts the color of the calendar icon to suit dark backgrounds */
 }
+
+/* Error message styling */
+.error-message {
+  color: red;
+  font-size: 0.8em;
+  margin-top: 5px;
+  visibility: hidden; /* Hide initially but keep space */
+  min-height: 1.2em; /* Reserve space for the error message */
+}
+
+/* When an error occurs, show the message */
+.error-message.visible {
+  visibility: visible;
+}

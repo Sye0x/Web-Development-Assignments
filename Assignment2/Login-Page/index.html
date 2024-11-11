@@ -17,21 +17,33 @@
       </a>
       <!-- Back to Landing Page Button -->
 
+      <div style="margin: 10px">
+        <span id="passwordError" class="error-message"></span>
+        <br />
+      </div>
+      <div style="margin: 10px">
+        <span id="usernameError" class="error-message"></span>
+      </div>
       <form action="">
         <h1>Login</h1>
         <div class="input-box">
-          <input type="text" placeholder="Username" required />
+          <input type="text" id="username" placeholder="Username" required />
           <i class="bx bxs-user"></i>
         </div>
         <div class="input-box">
-          <input type="password" placeholder="Password" required />
+          <input
+            type="password"
+            id="password"
+            placeholder="Password"
+            required
+          />
           <i class="bx bxs-lock-alt"></i>
         </div>
         <div class="remember-forgot">
           <label><input type="checkbox" />Remember Me</label>
           <a href="#">Forgot Password</a>
         </div>
-        <button type="submit" class="btn">Login</button>
+        <button type="submit" class="btn" id="login-btn">Login</button>
         <div class="register-link">
           <p>
             Don't have an account?
@@ -40,5 +52,6 @@
         </div>
       </form>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>

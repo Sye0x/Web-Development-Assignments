@@ -1,0 +1,95 @@
+/* Base styles */
+nav {
+  background-color: #2b2b2b; /* Dark background */
+  width: 100%;
+  border-bottom: 2px solid #fa9414;
+  height: auto; /* Allow height to adjust */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1vh 2vh;
+}
+
+.heading {
+  margin-right: auto;
+  color: white; /* White heading for contrast */
+  font-size: 7vh;
+}
+
+ul {
+  display: flex;
+  gap: 2vh;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: white; /* Change link color to white for better visibility */
+  text-decoration: none;
+}
+
+/* Container to center content */
+.nav-cont {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 2vh;
+}
+
+/* Responsive styles */
+
+/* Tablet screen adjustments */
+@media (max-width: 768px) {
+  .heading {
+    font-size: 5vh;
+  }
+
+  ul {
+    gap: 1.5vh;
+  }
+
+  li {
+    font-size: 2.5vh;
+  }
+}
+
+/* Mobile screen adjustments */
+@media (max-width: 480px) {
+  nav {
+    flex-direction: column; /* Stack the navbar vertically */
+    padding: 2vh 0;
+    height: auto;
+  }
+
+  .nav-cont {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .heading {
+    font-size: 5vh;
+    margin-bottom: 1vh;
+    text-align: center;
+  }
+
+  ul {
+    flex-direction: column; /* Stack the items vertically */
+    align-items: center;
+    gap: 1vh;
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    font-size: 3.5vh;
+    color: white; /* Ensure color contrast for visibility */
+  }
+
+  a {
+    color: white; /* Change link color to white for visibility */
+  }
+}

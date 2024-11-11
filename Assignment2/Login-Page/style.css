@@ -71,6 +71,7 @@ body {
   transform: translate(-50%);
   font-size: 20px;
 }
+
 .wrapper .remember-forgot {
   display: flex;
   justify-content: space-between;
@@ -136,4 +137,17 @@ body {
 
 .back-button:hover {
   background-color: #444;
+}
+/* Error message styling */
+.error-message {
+  color: red;
+  font-size: 0.8em;
+  margin-top: 5px;
+  visibility: hidden; /* Hide initially but keep space */
+  min-height: 1.2em; /* Reserve space for the error message */
+}
+
+/* When an error occurs, show the message */
+.error-message.visible {
+  visibility: visible;
 }
