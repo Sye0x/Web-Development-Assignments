@@ -1,4 +1,6 @@
-function toggleDrawer() {
-  const drawerMenu = document.getElementById("drawer-menu");
-  drawerMenu.classList.toggle("open");
-}
+const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-menu");
+
+hamburger.addEventListener("click", () => {
+  navMenu.classList.toggle("active");
+});

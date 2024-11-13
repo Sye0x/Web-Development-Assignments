@@ -1,95 +1,68 @@
-/* Base styles */
+/* Navigation styles */
 nav {
-  background-color: #2b2b2b; /* Dark background */
-  width: 100%;
-  border-bottom: 2px solid #fa9414;
-  height: auto; /* Allow height to adjust */
   display: flex;
-  justify-content: center;
+  background-color: #2b2b2b;
   align-items: center;
-  padding: 1vh 2vh;
-}
-
-.heading {
-  margin-right: auto;
-  color: white; /* White heading for contrast */
-  font-size: 7vh;
+  height: 14vh;
+  justify-content: flex-end;
+  flex-direction: row;
+  padding: 0px 10vh;
+  border-bottom: 0.4vh solid #fa9414;
 }
 
 ul {
   display: flex;
-  gap: 2vh;
+  list-style: none;
+  gap: 10px;
 }
 
 li {
-  list-style: none;
+  color: grey;
+  font-size: 3vh;
 }
 
-a {
-  color: white; /* Change link color to white for better visibility */
-  text-decoration: none;
+h1 {
+  margin-right: auto;
+  color: white;
+  font-size: 7vh;
 }
 
-/* Container to center content */
-.nav-cont {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  max-width: 1200px;
-  padding: 0 2vh;
+.menu {
+  height: 5vh;
+  cursor: pointer;
+  display: none;
 }
 
 /* Responsive styles */
-
-/* Tablet screen adjustments */
 @media (max-width: 768px) {
-  .heading {
-    font-size: 5vh;
+  .menu {
+    display: block;
   }
 
-  ul {
-    gap: 1.5vh;
-  }
-
-  li {
-    font-size: 2.5vh;
-  }
-}
-
-/* Mobile screen adjustments */
-@media (max-width: 480px) {
-  nav {
-    flex-direction: column; /* Stack the navbar vertically */
-    padding: 2vh 0;
-    height: auto;
-  }
-
-  .nav-cont {
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 14vh;
     flex-direction: column;
-    align-items: center;
-  }
-
-  .heading {
-    font-size: 5vh;
-    margin-bottom: 1vh;
+    background-color: #2b2b2b;
+    width: 100%;
     text-align: center;
+    transition: left 0.4s ease;
   }
 
+  /* Show menu when active */
+  .nav-menu.active {
+    left: 0;
+  }
+
+  /* Style adjustments for mobile view */
   ul {
-    flex-direction: column; /* Stack the items vertically */
-    align-items: center;
-    gap: 1vh;
-    padding: 0;
-    margin: 0;
+    gap: 0;
+    flex-direction: column;
   }
 
   li {
-    font-size: 3.5vh;
-    color: white; /* Ensure color contrast for visibility */
-  }
-
-  a {
-    color: white; /* Change link color to white for visibility */
+    padding: 1vh 0;
+    font-size: 4vh;
   }
 }
