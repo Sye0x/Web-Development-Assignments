@@ -3,25 +3,45 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SnapAuction</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="navbar.css" />
-    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="contactform.css" />
   </head>
   <body>
     <nav>
-      <h1><span class="heilight">Snap</span>Auction</h1>
-      <ul class="nav-menu">
-        <li><a href="../landing-Page/index.html">Home</a></li>
-        <li><a href="../landing-Page/index.html">Market</a></li>
-        <li><a href="../landing-Page/index.html">About</a></li>
-        <li><a href="../landing-Page/index.html">Contact Us</a></li>
-        <li><a href="../landing-Page/index.html">Login</a></li>
-        <li><a href="../landing-Page/index.html">Register</a></li>
-        <li>
-          <img src="../images/Menu.png" class="menu hamburger" srcset="" />
-        </li>
+      <h1 class="heading">
+        <a href="#"><span class="heilight">Snap</span>Auction</a>
+      </h1>
+      <input type="checkbox" id="check" />
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Market</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Login</a></li>
+        <li><a href="#">Register</a></li>
       </ul>
     </nav>
-    <script src="script.js"></script>
+    <section id="formSection">
+      <form action="">
+        <label for="">Name</label>
+        <input type="text" placeholder="Enter Name" />
+        <label for="">Email</label>
+        <input type="text" placeholder="Enter Email" />
+        <label for="">Contact No</label>
+        <input type="text" placeholder="+92-325-555-5420" />
+        <label for="">Message</label>
+        <textarea name="" id="" placeholder="Give us your thoughts"></textarea>
+        <div id="btn-cont"><button>Submit</button></div>
+      </form>
+    </section>
   </body>
 </html>

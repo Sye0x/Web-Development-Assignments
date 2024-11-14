@@ -1,0 +1,64 @@
+#formSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  background-color: transparent;
+  border: 0.3vh solid white;
+  border-radius: 4vh;
+  height: 65vh;
+  width: 35%;
+  margin-top: 15vh;
+  display: flex;
+  flex-direction: column;
+  padding: 4vh 6vh 4vh 6vh;
+  font-family: helvetica;
+}
+
+input {
+  border: 0.2vh solid white; /* Initial border color */
+  color: white;
+  height: 6vh;
+  background-color: transparent;
+  padding: 0 2vh;
+  border-radius: 1vh;
+}
+
+input:focus {
+  border-color: #fa9414; /* Border color on focus */
+  outline: none; /* Remove default outline */
+}
+label {
+  color: #fa9414;
+  margin-bottom: 1vh;
+}
+
+textarea {
+  border-color: #fa9414; /* Border color on focus */
+  outline: none; /* Remove default outline */
+  width: 100%; /* Set desired width */
+  height: 10vh; /* Set desired height */
+  resize: none; /* Disable resizing */
+  padding: 2vh;
+  border-radius: 2vh;
+}
+button {
+  background-color: transparent;
+  border: 0.4vh solid #fa9414;
+  color: #fa9414;
+  width: 20%;
+}
+button:hover {
+  background-color: #fa9414;
+  color: white;
+}
+button:active {
+  opacity: 0.6;
+}
+#btn-cont {
+  display: flex;
+  justify-content: center;
+  margin-top: 4vh;
+}
