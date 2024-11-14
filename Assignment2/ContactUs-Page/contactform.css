@@ -2,63 +2,116 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 2vh;
 }
 
 form {
   background-color: transparent;
   border: 0.3vh solid white;
   border-radius: 4vh;
-  height: 65vh;
-  width: 35%;
-  margin-top: 15vh;
+  height: auto; /* Allow height to adjust automatically */
+  width: 60vh;
+  max-width: 500px; /* Set a maximum width for large screens */
+  margin-top: 10vh;
   display: flex;
   flex-direction: column;
-  padding: 4vh 6vh 4vh 6vh;
+  justify-content: center;
+  align-items: center;
   font-family: helvetica;
+  padding: 4vh;
 }
 
 input {
-  border: 0.2vh solid white; /* Initial border color */
+  border: 0.2vh solid white;
   color: white;
   height: 6vh;
   background-color: transparent;
   padding: 0 2vh;
   border-radius: 1vh;
+
+  width: 100%; /* Full width for input fields */
 }
 
 input:focus {
-  border-color: #fa9414; /* Border color on focus */
-  outline: none; /* Remove default outline */
+  border-color: #fa9414;
+  outline: none;
 }
+
 label {
   color: #fa9414;
   margin-bottom: 1vh;
+
+  margin-top: 0.5vh;
 }
 
 textarea {
-  border-color: #fa9414; /* Border color on focus */
-  outline: none; /* Remove default outline */
-  width: 100%; /* Set desired width */
-  height: 10vh; /* Set desired height */
-  resize: none; /* Disable resizing */
+  border-color: #fa9414;
+  outline: none;
+  width: 80%;
+  height: 10vh;
+  resize: none;
   padding: 2vh;
   border-radius: 2vh;
 }
+
 button {
   background-color: transparent;
-  border: 0.4vh solid #fa9414;
-  color: #fa9414;
-  width: 20%;
-}
-button:hover {
-  background-color: #fa9414;
+  border: 0;
   color: white;
+  width: max-content;
+  max-width: 200px;
+  margin-bottom: 4vh;
 }
+
+button:hover {
+  background-color: white;
+  color: #2b2b2b;
+}
+
 button:active {
   opacity: 0.6;
 }
+
 #btn-cont {
   display: flex;
   justify-content: center;
   margin-top: 4vh;
+}
+
+/* Responsive adjustments for tablets */
+@media (max-width: 768px) {
+  form {
+    width: 90%; /* Increase width for smaller screens */
+    padding: 3vh 4vh;
+  }
+
+  label,
+  input,
+  textarea,
+  button {
+    font-size: 2vh; /* Adjust font size for readability */
+  }
+
+  button {
+    width: 60%; /* Wider button on smaller screens */
+  }
+}
+
+/* Responsive adjustments for mobile screens */
+@media (max-width: 480px) {
+  form {
+    width: 95%;
+    padding: 2vh 3vh;
+  }
+
+  label,
+  input,
+  textarea,
+  button {
+    font-size: 1.8vh;
+  }
+
+  button {
+    width: 70%;
+  }
 }
